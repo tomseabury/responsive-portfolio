@@ -1,0 +1,282 @@
+body{
+	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	color: #777777;
+	background-image: url(../images/hypnotize.png);
+}
+
+header{
+	font-family: "Georgia","Times","Times New Roman", serif;
+}
+
+
+
+.teal-background{
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.teal-text{
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+.main-header{
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-bottom: 1px;
+	border-style: solid;
+	height: 75px;
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+}
+
+.footer{
+	background-color: #666666;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 50px;
+	border: 10px;
+	border-color: #4aaaa5;
+	border-top-style: solid;
+	color: lightgrey;
+}
+
+.all-content{
+	clear: both;
+	width: 960px;
+	height: 210vh;
+	margin: 0 auto;
+}
+
+.content{
+	background-color: #ffffff;
+	color: #dddddd;
+	font-size: 20px;
+	line-height: 25px;
+	border:1px;
+	border-style: solid;
+}
+
+.bottom-border{
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+}
+
+.right-border{
+	border-right: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+}
+
+.margin-main{
+	margin: 15px 20px 20px 20px;
+}
+
+.side-bar{
+	width: 270px;
+	height: 150px;
+	margin-top: 125px;
+	color: #777777;
+	float: left;
+}
+
+.text-right{
+	clear: both;
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px 10px 25px 10px;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.main-section{
+	width: 650px;
+	margin: 125px 20px 50px 0px;
+	color: #777777;
+	float: left;
+	margin-bottom: 200px;
+}
+
+.image{
+	height: 215px;
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 2px;
+}
+
+.image-small {
+	clear: both;
+	height: 70px;
+	width: 70px;
+}
+
+.image-md{
+	clear: both;
+	height: 215px;
+	width: 180px;
+}
+
+.float-left{
+	float: left;
+	height: 75px;
+}
+
+.float-right{
+	float: right;
+	padding-right: 20px;
+	padding-top: 30px;
+}
+
+.inputbox-small{
+	clear: both;
+	width: 500px;
+}
+
+.inputbox-large{
+	clear: both;
+	height: 300px;
+	width: 600px;
+}
+
+.banner{
+	height: 20px;
+	background-color: #4aaaa5;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	top: -45px;
+	text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+	.all-content{
+		width: 768px;
+	}
+
+	.image{
+	height: 275px;
+	width: 400px;
+	}
+
+	.main-section{		
+		width: 450px;
+	}
+
+	.inputbox-small{
+	clear: both;
+	width: 300px;
+	}
+
+	.inputbox-large{
+		clear: both;
+		height: 300px;
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.all-content{
+		width: 640px
+	}
+
+	.main-section{
+		clear: both;
+		width: 640px;
+		margin-bottom: 0px;
+	}
+
+	.side-bar{
+		clear: both;
+		width: 640px;
+		margin-top: 20px;
+	}
+
+	.teal-text{
+		text-align: left;
+	}
+
+	.inputbox-small{
+	clear: both;
+	width: 500px;
+	}
+
+	.inputbox-large{
+		clear: both;
+		height: 300px;
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.all-content{
+		width: 600px;
+	}
+
+	.main-section{
+		clear: both;
+		width: 600px;
+		margin-bottom: 0px;
+		margin-top: 185px;
+	}
+
+	.side-bar{
+		clear: both;
+		width: 600px;
+		margin-top: 20px;
+	}	
+
+	.teal-text{
+		text-align: left
+	}
+
+	.full-banner{
+		clear: both;
+		display: block;
+		width: 100%;
+	}
+
+	.float-right{
+		width: 30%;
+		padding-right: 0px;
+	}
+
+	.main-header{
+		height: 150px;
+	}
+	
+	.image{
+	height: 350px;
+	width: 550px;
+	}
+
+	.inputbox-large{
+	clear: both;
+	height: 300px;
+	width: 550px;
+	}
+
+	.clear-float{
+		float: left;
+		clear: both;
+	}
+
+	.banner{
+		width: 250px;
+	}
+}
